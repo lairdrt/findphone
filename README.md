@@ -25,6 +25,8 @@ Two scripts were developed to accomplish the task:
 ## Results
 The RESNET classifier did fine in terms of classification, but ran very slow on my old desktop computer (~44 seconds per classification). Accuracy on the training set was more than 93%. Should do well on the test image set. Other models such as SSD MobileNet should be investigated for achieving faster classification speeds. In addition, I did no pre-processing of the image files before classification, and even some basic normalization could improve results. And of course additional training images would improve classification accuracy further.
 ## References
+TensorFlow object detection API installation  
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md  
 TensorFlow detection model zoo  
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md  
 TensorFlow object detection API  
